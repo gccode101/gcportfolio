@@ -14,7 +14,7 @@
 }
 
 #home {
-	background: url("https://images.pexels.com/photos/205316/pexels-photo-205316.png?cs=srgb&dl=pexels-mockupeditorcom-205316.jpg&fm=jpg");
+	background: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?cs=srgb&dl=pexels-dominika-roseclay-1036808.jpg&fm=jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -36,6 +36,11 @@
 	font-size: 1.25rem;
 }
 
+
+#intro {
+	width: 100%;
+	height: 100vh
+}
 #developer {
 	margin: 180px auto;
 	padding: 10px;
@@ -43,13 +48,24 @@
 	text-align: justify;
 }
 
-header button {
-	padding: 8px;
+#home_img {
+	width: 300px;
+	height: 300px;
+	border-radius: 100px;
+	object-fit: cover;
+	float: left;
+}
+
+header #btn_about {
+	padding: 8px 15px;
 	border: 2px solid blue;
 	background-color: blue;
 	width: 150px;
 	color: white;
 	border-radius: 20px;
+	display: inline;
+	height: 100px;
+	text-decoration: none;
 }
 
 #intro > #developer .description {
@@ -58,12 +74,24 @@ header button {
 
 #menu_nav {
 	background-color: green;
-	width: 40%;
+	width: 30%;
 	height: 100%;
 }
 
 #details {
 	background-color: yellow;
-	width: 60%;
+	width: 70%;
 	height: 100%;
+}
+
+#menu_nav, #details {
+	margin: 10px 0px;
+	border: 2px solid blue;
+}
+
+#menu_image {
+	width: 150px;
+	border-radius: 150px;
+	margin: 10px auto;
+	object-fit: cover;
 }

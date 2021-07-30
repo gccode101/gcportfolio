@@ -22,7 +22,7 @@
 
 	<div class="container-fluid" id="home">	
 
-		<nav class="contaner" id="nav_portfolio">
+		<nav class="row" id="nav_portfolio">
 			<ul class="d-flex">
 				<a id="gc" class="" href="./index.html">Gladice Censon</a>
 				<a class="menu" href="./about.html">About Me</a>
@@ -32,20 +32,22 @@
 			</ul>
 		</nav>
 
-		<header id="intro" class="container">
-			<div id="developer">
+		<header id="intro" class="d-flex row">
+			<div id="developer" class="column">
 				<h1 id="d_name">Hi! You can call me Glad.</h1>
 				<p class="description">I'm a Full-Stack Web Developer, an expert in front and back-end with more than a year of experience specializing in Web-Development and Designing with HTML, CSS, Bootstrap, Javascript, Robo 3T, and Postman. </p>
 				<p class="description"> I'm also an Industrial Engineer who can use programming knowledge in conducting automation or solving different statistics problems.</p>
 				<img src="" alt=""></img>
-				<button type="submit">See My Profile</button>
+				
+				<a id="btn_about" href="./about.html">See My Profile</a>
+				
 			</div>
-			<div>
-				<img src=".assets/images/home.jpg" alt="">
+			<div class="column">
+				<img id="home_img" src="./assets/images/home.jpg" alt="">
 			</div>	
 		</header>
 
-		<footer class="container">
+		<footer class="row">
 			<img src="" alt="">
 			<img src="" alt="">
 			<img src="" alt="">
