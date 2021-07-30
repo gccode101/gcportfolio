@@ -6,15 +6,8 @@
 	width: 100%;
 }
 
-#nav_portfolio {
-	height: 60px;
-	padding: 10px;
-	background-color: blue;
-	color: white;
-}
-
 #home {
-	background: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?cs=srgb&dl=pexels-dominika-roseclay-1036808.jpg&fm=jpg");
+	background: url("https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?cs=srgb&dl=pexels-lukas-574073.jpg&fm=jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -23,40 +16,53 @@
 
 }
 
-#nav_portfolio a {
-	text-decoration: none;
-	color: white;
+#nav_portfolio {
+	border-bottom: 2px solid #55F;
+	padding: 15px 30px 5px;
+	position: fixed;
+	box-shadow: 0 0 4px 0 #55F;
+
 }
 
-#nav_portfolio #gc {
-	font-size: 1.5rem;
-} 
+#gc {
+	font-weight: bolder;
+	font-size: 2rem;
+	text-decoration: none;
+}
 
 #nav_portfolio .menu {
+	font-weight: bold;
 	font-size: 1.25rem;
+	text-decoration: none;
 }
-
 
 #intro {
 	width: 100%;
 	height: 100vh
 }
 #developer {
-	margin: 180px auto;
+	margin-top: 120px;
+	margin-left: 100px;
 	padding: 10px;
 	width: 490px;
 	text-align: justify;
 }
 
+#home_me {
+	display: inline;
+}
+
 #home_img {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	border-radius: 100px;
 	object-fit: cover;
 	float: left;
+	display: inline-block;
+	margin-left: 100px;
 }
 
-header #btn_about {
+section #btn_about {
 	padding: 8px 15px;
 	border: 2px solid blue;
 	background-color: blue;
@@ -82,6 +88,7 @@ header #btn_about {
 	background-color: yellow;
 	width: 70%;
 	height: 100%;
+	margin-top: 100px;
 }
 
 #menu_nav, #details {
@@ -90,8 +97,9 @@ header #btn_about {
 }
 
 #menu_image {
-	width: 150px;
+	width: 200px;
 	border-radius: 150px;
-	margin: 10px auto;
+	margin: 50px auto;
 	object-fit: cover;
 }
+

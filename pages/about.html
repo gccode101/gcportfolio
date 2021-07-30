@@ -9,7 +9,7 @@
 	<!-- AOS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- CSS -->
-	<link rel="stylesheet" href="./assets/styles/style.css">
+	<link rel="stylesheet" href="../assets/styles/style.css">
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,16 +19,34 @@
 	<title>Gladice Censon Web Portfolio</title>
 </head>
 <body>
-	<h1>Work</h1>
-	<nav id="nav_portfolio">
-		<ul>
-			<a href="./index.html">Gladice Censon</a>
-			<a href="./about.html">About Me</a>
-			<a href="./work.html">Work</a>
-			<a href="./service.html">Service</a>
-			<a href="./contact.html">Contact</a>
-		</ul>
-	</nav>s
+	<div class="container-fluid">
+
+		<section class="d-flex" class="row">
+			<div id="menu_nav"class="column">
+				<div class="row">
+					<img id="menu_image" src="../assets/images/profile.png" alt="">
+					
+				</div>
+				<div class="row">
+					<ul class="d-flex flex-column">
+						<a class="menu" href="./pages/about.html">About Me</a>
+						<a class="menu" href="./pages/work.html">Work</a>
+						<a class="menu" href="./pages/service.html">Service</a>
+						<a class="menu" href="./pages/contact.html">Contact</a>
+					</ul>
+				</div>
+
+				
+			</div>
+			<div id="details" class="column">
+				<p>Git Gitlab HTML Semantic HTML CSS Bootstrap Frontend Developemnt Responsive Web Design</p>
+			</div>
+		</section>
+
+		<section>
+			
+		</section>
+	</div>
 	
 
 
@@ -36,6 +54,9 @@
 
 	<!-- AOS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<!-- Lottie Files -->
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 	<script>
 	  AOS.init();

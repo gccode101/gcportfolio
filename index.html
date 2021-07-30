@@ -15,37 +15,41 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 	
+	<!-- icon -->
+
+	<link rel="icon" href="https://img.icons8.com/color-glass/96/000000/code-file.png">
 
 	<title>Gladice Censon Web Portfolio</title>
 </head>
 <body>
 
-	<div class="container-fluid" id="home">	
+	<div class="container-fluid" id="home">
+
 
 		<nav class="row" id="nav_portfolio">
 			<ul class="d-flex">
-				<a id="gc" class="" href="./index.html">Gladice Censon</a>
-				<a class="menu" href="./about.html">About Me</a>
-				<a class="menu" href="./work.html">Work</a>
-				<a class="menu" href="./service.html">Service</a>
-				<a class="menu" href="./contact.html">Contact</a>
+				<a id="gc" href="./index.html">Gladice Censon</a>
+				<a class="menu" href="./pages/about.html">About Me</a>
+				<a class="menu" href="./pages/work.html">Work</a>
+				<a class="menu" href="./pages/service.html">Service</a>
+				<a class="menu" href="./pages/contact.html">Contact</a>
 			</ul>
 		</nav>
 
-		<header id="intro" class="d-flex row">
+		<section id="intro" class="row d-flex">
 			<div id="developer" class="column">
-				<h1 id="d_name">Hi! You can call me Glad.</h1>
-				<p class="description">I'm a Full-Stack Web Developer, an expert in front and back-end with more than a year of experience specializing in Web-Development and Designing with HTML, CSS, Bootstrap, Javascript, Robo 3T, and Postman. </p>
-				<p class="description"> I'm also an Industrial Engineer who can use programming knowledge in conducting automation or solving different statistics problems.</p>
-				<img src="" alt=""></img>
+				<h1 id="d_name">Hi there! I am Gladice!</h1>
+				<p class="description mt-4">I'm a Full-Stack Web Developer, an expert in front and back-end with more than a year of experience specializing in Web-Development and Designing with HTML, CSS, Bootstrap, Javascript, Robo 3T, and Postman. </p>
+				<p class="description mt-3 mb-3"> I'm also an Industrial Engineer who can use programming knowledge in conducting automation or solving different statistics problems.</p>
 				
-				<a id="btn_about" href="./about.html">See My Profile</a>
+				
+				<a id="btn_about" href="./pages/about.html">See My Profile</a>
 				
 			</div>
-			<div class="column">
+			<div class="column" id="home_me">
 				<img id="home_img" src="./assets/images/home.jpg" alt="">
 			</div>	
-		</header>
+		</section>
 
 		<footer class="row">
 			<img src="" alt="">
@@ -61,6 +65,9 @@
 
 	<!-- AOS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<!-- Lottie Files -->
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 	<script>
 	  AOS.init();
