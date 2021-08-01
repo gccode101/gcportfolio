@@ -23,43 +23,50 @@
 </head>
 <body>
 
-	<div id="homepage">
-		<nav id="nav_bar" class="container-fluid">
-			<div class="row">
-				<div id="logo" class="d-inline-flex column">
-					<a class="devname f-bold" href="./index.html"><img id="gclogo" src="./assets/images/gclogo.png" alt="image unavailable">Gladice Censon</a>
-				</div>
-
-				<div id="menu" class="d-inline-flex justify-content-end column f-bold">
-					<a class="nav-link ml-auto d-sm-flex" href="./pages/about.html">About Me</a>
-					<a class="nav-link ml-auto d-sm-flex" href="./pages/work.html">Work</a>
-					<a class="nav-link ml-auto d-sm-flex" href="./pages/services.html">Services</a>
-					<a class="nav-link ml-auto d-sm-flex" href="./pages/contact.html">Contact</a>
-				</div>
+	<nav id="nav_bar" class="container-fluid">
+		<div class="row">
+			<div id="logo" class="col-sm-12 col-md-4 d-inline-flex justify-content-center align-items-center">
+				<a class="devname f-bold" href="./index.html"><img id="gclogo" src="./assets/images/gclogo.png" alt="image unavailable">Gladice Censon</a>
 			</div>
-		</nav>
 
-		<section id="intro" class="container-fluid">
-			<div class="row">
-				<div id="greetings" class="column">
-					<h1 id="d_name">Hi there! I am Gladice!</h1>
-					<p class="description p-lr50 f-bold">I'm a Full-Stack Web Developer, an expert in front and back-end with more than a year of experience specializing in Web-Development and Designing with HTML, CSS, Bootstrap, Javascript, Robo 3T, and Postman. </p>
-					<p class="description p-lr50 f-bold"> I'm also an Industrial Engineer who can use programming knowledge in conducting automation or solving different statistics problems.</p>
-
-					<a id="btn_about" class="p-lr50 f-bold m-t40" href="./pages/about.html">See My Profile</a>
-				</div>
-				<div id="intro_img" class="column">
-					<img src="./assets/images/home.jpg" alt="image unavailable">
-				</div>
+			<div id="menu" class=" col-sm-12 col-md-8 d-inline-flex justify-content-end f-bold align-items-center">
+				<a class="nav-link" href="./pages/about.html">About Me</a>
+				<a class="nav-link" href="./pages/services.html">Services</a>
+				<a class="nav-link" href="./pages/contact.html">Contact</a>
 			</div>
-		</section>
+		</div>
+	</nav>
 
-		<footer class="container-fluid">
-			<div class="row">
-				<span class="f-bold">&copy; 2021 Gladice Censon. All Rights Reserved</span>
+	<section id="intro" class="container-fluid">
+		<div class="row d-flex">
+
+			<div id="intro_img" class="col-sm-12 col-md-6 order-sm-1 mb-5">
+				<img class="justify-content-center align-items-center mx-auto d-block" src="./assets/images/home.jpg" alt="image unavailable">
 			</div>
-		</footer>
-	</div>
+
+			<div id="greetings" class="col-sm-12 col-md-6 justify-content-center align-items-center order-sm-0">
+				<div class="col-sm-12">
+					<h1 id="d_name" class="text-center">Hi there! I am Gladice!</h1>
+					<p class="description f-bold t-justify">I'm a Full-Stack Web Developer, an expert in front and back-end with more than a year of experience specializing in Web-Development and Designing with HTML, CSS, Bootstrap, Javascript, Robo 3T, and Postman. </p>
+					<p class="description f-bold t-justify"> I'm also an Industrial Engineer who can use programming knowledge in conducting automation or solving different statistics problems.</p>
+				</div>
+				<div class="col-sm-12 mt-4">
+					<a id="btn_about" class="f-bold" href="./pages/about.html">See My Profile</a>
+				</div>
+			</div>		
+		</div>
+	</section>
+
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+			<span class="f-bold">&copy; 2021 Gladice Censon. All Rights Reserved</span>
+			</div>
+			<div class="col-sm-12 col-md-6">
+				
+			</div>
+		</div>
+	</footer>
 
 
 

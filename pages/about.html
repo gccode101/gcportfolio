@@ -22,37 +22,57 @@
 	<title>Gladice Censon Web Portfolio</title>
 </head>
 <body>
-	<div id="about" class="container-fluid">
 
-		<section class="d-flex" class="row">
-			<div id="menu_nav"class="column">
-				<div class="row">
-					<!-- <img id="menu_image" src="../assets/images/profile.png" alt=""> -->
-					
-				</div>
-				<div class="row">
-					<ul class="d-flex flex-column">
-						<a class="menu" href="../index.html">Home</a>
-						<a class="menu" href="about.html">About Me</a>
-						<a class="menu" href="work.html">Work</a>
-						<a class="menu" href="service.html">Service</a>
-						<a class="menu" href="contact.html">Contact</a>
-					</ul>
-				</div>	
+
+	<nav id="nav_bar" class="container-fluid">
+		<div class="row">
+			<div id="logo" class="col-sm-12 col-md-4 d-inline-flex justify-content-center align-items-center">
+				<a class="devname f-bold" href="../index.html"><img id="gclogo" src="../assets/images/gclogo.png" alt="image unavailable">Gladice Censon</a>
 			</div>
 
-			<div id="details" class="column">
-				<div class="container">
+			<div id="menu" class=" col-sm-12 col-md-8 d-inline-flex justify-content-end f-bold align-items-center">
+				<a class="nav-link" href="./about.html">About Me</a>
+				<a class="nav-link" href="service.html">Services</a>
+				<a class="nav-link" href="contact.html">Contact</a>
+			</div>
+		</div>
+	</nav>
+
+	<section class="container-fluid">
+
+		<div class="row">
+			<div id="aboutme" class="col-sm-12 col-md-3">
+				<div>
+					<img id="img_profile" class="mx-auto d-block mt-5" src="../assets/images/profile.png" alt="">
+					<p class="t-justify p-2 mt-3">Work independently as freelancer or work with company teams to create websites</p>
+				</div>
+
+				<div id="experiences">
 					<h2 class="text-center">Experiences</h2>
-					<div class="d-flex mb-3">
+					<div>
 						<ul>
 							<li>More than a year experience in web development</li>
 							<li>13 years experience in Process Improvement</li>
 						</ul>
-					</div>
-					
+					</div>	
 				</div>
-				<div id="cont_tools" class="container">
+			</div>
+
+			<div id="skills" class="col-sm-12 col-md-9">
+
+				<div class="mt-5">
+					<h2 class="text-center">Soft Skills</h2>
+						<div class="d-flex justify-content-center align-items-center">
+							<ol type="a">
+								<li>Multitasking</li>
+								<li>Self-Motivation</li>
+								<li>Organizational Skills</li>
+								<li>Attention to Details</li>
+							</ol>
+						</div>
+				</div>
+
+				<div id="cont_tools" class="mt-5">
 					<h2 class="text-center">Tools</h2>
 					
 					<div class="d-flex flex-wrap justify-content-center mb-3">
@@ -70,33 +90,21 @@
 					    <img class="d-sm-flex tools" src="../assets/images/logo-heroku.png" alt="image unavailable">
 					</div>
 				</div>
-
-				<div class="container">
-					<h2 class="text-center">Soft Skills</h2>
-						<div class="d-flex">
-							<ul>
-								<li>Multitasking</li>
-								<li>Self-Motivation</li>
-								<li>Organizational Skills</li>
-								<li>Attention to Details</li>
-							</ul>
-						</div>
-				</div>
-
 			</div>
-		</section>
+		</div>
+		
+	</section>
 
-		<section>
-			
-		</section>
-
-		<footer class="container-fluid">
-			<div class="row">
-				<span class="f-bold">&copy; 2021 Gladice Censon. All Rights Reserved</span>
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+			<span class="f-bold">&copy; 2021 Gladice Censon. All Rights Reserved</span>
 			</div>
-		</footer>
-	</div>
-	
+			<div class="col-sm-12 col-md-6">
+				
+			</div>
+		</div>
+	</footer>
 
 
 
