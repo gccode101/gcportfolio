@@ -9,32 +9,112 @@
 	<!-- AOS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- CSS -->
-	<link rel="stylesheet" href="./assets/styles/style.css">
+	<link rel="stylesheet" href="../assets/styles/style.css">
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 	<!-- icon -->
 
-	<link rel="icon" href="./assets/images/favicon-32x32.png">
+	<link rel="icon" href="../assets/images/favicon-32x32.png">
 	
 
 	<title>Gladice Censon Web Portfolio</title>
 </head>
+
 <body>
-	<h1>Contact</h1>
-	<nav id="nav_portfolio">
-		<ul>
-			<a id="gc" class="" href="../index.html">Gladice Censon</a>
-			<a class="menu" href="./about.html">About Me</a>
-			<a class="menu" href="./work.html">Work</a>
-			<a class="menu" href="./service.html">Service</a>
-			<a class="menu" href="./contact.html">Contact</a>
-		</ul>
+	
+	<nav id="nav_bar" class="container-fluid">
+		<div class="row">
+			<div id="logo" class="col-sm-12 col-md-4 d-inline-flex justify-content-center align-items-center">
+				<a class="devname f-bold" href="../index.html"><img id="gclogo" src="../assets/images/gclogo.png" alt="image unavailable">Gladice Censon</a>
+			</div>
+
+			<div id="menu" class=" col-sm-12 col-md-8 d-inline-flex justify-content-end f-bold align-items-center">
+				<a class="nav-link" href="./about.html">About</a>
+				<a class="nav-link" href="service.html">Services</a>
+				<a class="nav-link" href="contact.html">Contact</a>
+			</div>
+		</div>
 	</nav>
+
+	<section class="container-fluid">
+
+		<div class="row">
+			<div id="aboutme" class="col-sm-12 col-md-3">
+				<div>
+					<img id="img_profile" class="mx-auto d-block mt-5" src="../assets/images/profile.png" alt="">
+					<p class="t-justify p-2 mt-3">Work independently as freelancer or work with company teams to create websites</p>
+				</div>
+
+				<div id="experiences">
+					<h2 class="text-center">Experiences</h2>
+					<div>
+						<ul>
+							<li>More than a year experience in web development</li>
+							<li>13 years experience in Process Improvement</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+
+			<div id="contact" class="col-sm-12 col-md-9">
+				<div>
+					<h2 class="text-center mt-5">Contact Me</h2>
+					<h5 class="text-center">Hire me or Send me your concerns. I'd love to hear from you.</h5>
+					<form>
+						<div class="form-group">
+						    <label for="fname">Full Name</label>
+						    <input type="text" class="form-control" id="fname" required autocomplete="off" placeholder="First Name Last Name">
+						</div>
+
+						<div class="form-group">
+						    <label for="email">Email Address</label>
+						    <input type="email" class="form-control" id="email"aria-describedby="emailHelp" required autocomplete="off" placeholder="email@sample.com">
+						    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						  
+						<div class="form-group">
+						    <label for="message">Message</label>
+						    <textarea class="form-control" id="message" rows="3" placeholder="Type your message here"></textarea>
+						</div>
+						<button type="submit" id="btn-contact" data-toggle="modal" data-target="#submitmessage">Submit</button>
+
+						<div class="modal" tabindex="-1" id="submitmessage">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title">Message Sent!</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <p>Your message has been submitted. Please expect a reply within 24 hours!</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		
+	</section>
+
 	<footer class="container-fluid">
 		<div class="row">
+			<div class="col-sm-12 col-md-6">
 			<span class="f-bold">&copy; 2021 Gladice Censon. All Rights Reserved</span>
+			</div>
+			<div class="col-sm-12 col-md-6">
+				
+			</div>
 		</div>
 	</footer>
 	

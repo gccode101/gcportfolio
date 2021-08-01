@@ -60,7 +60,8 @@
 }
 
 
-#btn_about {
+#btn_about,
+#btn-contact {
 	border: 1px solid #55f;
 	color: white;
 	padding: 10px 25px;
@@ -96,16 +97,17 @@ footer > div {
 	text-align: justify;
 }
 
-/*--------------ABOUT-----------------*/
+/*--------------ABOUT SERVICES CONTACT-----------------*/
 
 #aboutme {
-	border-right: 3px solid #55f;
-	box-shadow: 0px 3px 3px 0px #55f;
+	border: 0px 3px solid #55f;
+	box-shadow: 3px 3px 3px 3px #55f;
 }
 
-#skills {
-	background-color: yellow;
-	height: 90vh;
+#skills, 
+#services, 
+#contact {
+	height: 100vh;
 }
 
 #img_profile {
@@ -125,7 +127,31 @@ footer > div {
 	width: 80px;
 }
 
+
+#output span {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#service_list,
+#output {
+	padding: 20px 30px;
+}
+
+#contact form {
+	padding: 30px;
+}
+
+
+
 /*media screens*/
+
+@media only screen and (min-width: 600px) {
+	#aboutme {
+	border: 0px 3px solid #55f;
+	box-shadow: 0px 0px 3px 3px #55f;
+	}
+}
 
 @media only screen and (min-width: 600px) {
   #intro {
@@ -149,5 +175,9 @@ footer > div {
 
    #d_name {
    	font-size: 3rem;
+   }
+
+   #contact form {
+   	padding: 30px 200px;
    }
 }
