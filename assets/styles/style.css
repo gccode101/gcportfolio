@@ -13,13 +13,13 @@
     display: table;
 }
 
-#homepage {
+/*#homepage {
 	background-color: #DCE4F8;
 	background-size: cover;
 	background-repeat: no-repeat;
 	object-fit: cover;
 	width: 100%;
-}
+}*/
 
 #logo {
 	height: 75px;
@@ -87,14 +87,19 @@ footer > div {
 	color: #55f;
 }
 
-#btn_about:hover {
+#btn_about:hover,
+#dmode:hover {
 	background-color: white;
-	border: 1px solid #55f;
+	border: 4px solid #55f;
 	color: #55f;
 }
 
 .t-justify {
 	text-align: justify;
+}
+
+footer span {
+	font-size: 0.90rem;
 }
 
 /*--------------ABOUT SERVICES CONTACT-----------------*/
@@ -105,8 +110,12 @@ footer > div {
 }
 
 #skills, 
-#services, 
 #contact {
+	height: 100vh;
+	background-color: #C4D6FD;
+}
+
+#services {
 	height: 100vh;
 }
 
@@ -134,7 +143,8 @@ footer > div {
 }
 
 #service_list,
-#output {
+#output,
+#show1 {
 	padding: 20px 30px;
 }
 
@@ -142,18 +152,40 @@ footer > div {
 	padding: 30px;
 }
 
+#s-media .media_img {
+	width: 50px;
+	height: 50px;
+}
+
 
 
 /*media screens*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 320px) {
 	#aboutme {
 	border: 0px 3px solid #55f;
 	box-shadow: 0px 0px 3px 3px #55f;
 	}
+
+	#intro_img > img {
+		width: 150px;
+		height: 150px;
+		border-radius: 30px;
+		border: 5px solid #55f;
+		object-fit: cover;
+		box-shadow: 1px 2px 3px 0 #55f;
+	}
+
+	#intro .description {
+		font-size: 1rem;
+	}
+
+	#experiences {
+		padding: 15px;
+	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 481px) {
   #intro {
     height: 70vh;
     padding-left: 50px;
@@ -161,9 +193,9 @@ footer > div {
   }
 
   #intro_img > img {
-	width: 400px;
-	height: 400px;
-	border-radius: 100px;
+	width: 300px;
+	height: 300px;
+	border-radius: 80px;
 	border: 5px solid #55f;
 	object-fit: cover;
 	box-shadow: 1px 2px 3px 0 #55f;
@@ -180,4 +212,23 @@ footer > div {
    #contact form {
    	padding: 30px 200px;
    }
+
+   #experiences > h3 {
+   	font-size: 1.5rem;
+   }
+
+}
+
+/*Showcase*/
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#dmode {
+	padding: 15px;
+	background-color: #55f;
+	color: white;
+	border: 1px solid #55F;
+	border-radius: 25px;
 }
