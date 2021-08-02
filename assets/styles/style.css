@@ -55,10 +55,9 @@
 }
 
 #intro {
-	margin-top: 100px;
-	margin-bottom: 50px;
+	background-color: #C4D6FD;
+	height: 100vh;
 }
-
 
 #btn_about,
 #btn-contact {
@@ -77,7 +76,6 @@
 	border: 5px solid #55f;
 	object-fit: cover;
 	box-shadow: 1px 2px 3px 0 #55f;
-
 }
 
 
@@ -144,7 +142,7 @@ footer span {
 
 #service_list,
 #output,
-#show1 {
+#show1{
 	padding: 20px 30px;
 }
 
@@ -153,8 +151,9 @@ footer span {
 }
 
 #s-media .media_img {
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
+	margin-bottom: 30px;
 }
 
 
@@ -174,6 +173,7 @@ footer span {
 		border: 5px solid #55f;
 		object-fit: cover;
 		box-shadow: 1px 2px 3px 0 #55f;
+		margin-top: 50px;
 	}
 
 	#intro .description {
@@ -183,11 +183,15 @@ footer span {
 	#experiences {
 		padding: 15px;
 	}
+
+	#d_name {
+		margin-top: 50px;
+	}
 }
 
 @media only screen and (min-width: 481px) {
   #intro {
-    height: 70vh;
+    height: 100vh;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -199,6 +203,7 @@ footer span {
 	border: 5px solid #55f;
 	object-fit: cover;
 	box-shadow: 1px 2px 3px 0 #55f;
+	margin-top: 150px;
    }
 
    #intro .description {
@@ -207,6 +212,7 @@ footer span {
 
    #d_name {
    	font-size: 3rem;
+   	margin-top: 150px;
    }
 
    #contact form {
